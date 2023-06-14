@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recetas</title>
+  <style>
+    body {
+      font-family: Calibri, Arial, sans-serif;
+      background-color: #FFFFFF;
+      color: #333333;
+    }
+    
+    h1 {
+      color: black;
+      text-align: center;
+      padding: 20px;
+      background-color: #ffc0cb;
+      margin: 0;
+    }
+    
+    .recipe-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    
+    .recipe {
+      border: 1px solid #999999;
+      border-radius: 8px;
+      padding: 20px;
+      background-color: white;
+    }
+    
+        .recipe-image {
+      display: block;
+      margin: 0 auto;
+      width: auto;
+      height: 230px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Recetas</h1>
+  
+  <div class="recipe-container">
+    <div class="recipe">
+      <a href="recipe1.html">
+        <img class="recipe-image" src="recipe1.jpg" alt="Crepas">
+      </a>
+      <h2>Crepas</h2>
+      <p>Hecha fundamentalmente de harina de trigo, con la que se elabora una masa en forma de disco. Se sirve habitualmente como base de un plato o postre, aplicándole todo tipo de ingredientes.</p>
+    </div>
+  
+    <div class="recipe">
+      <a href="recipe2.html">
+        <img class="recipe-image" src="recipe2.jpg" alt="Rollos de piña">
+      </a>
+      <h2>Rollos de fresa</h2>
+      <p>Una receta con masa de hojaldre que rellenaremos con fresa. Una fruta deliciosa y que nos da muchos beneficios para nuestro organismo. Una elaboración perfecta para nuestros postres o nuestras meriendas..</p>
+    </div>
+  
+    <div class="recipe">
+      <a href="recipe3.html">
+        <img class="recipe-image" src="recipe3.jpg" alt="Volovanes de jamón">
+      </a>
+      <h2>Volovanes de jamón</h2>
+      <p>Hecho de masa de hoja u hojaldre. Después de su cocción al horno se rellena, tradicionalmente con preparados salados aunque también con preparados dulces, on individuales y se suelen servir como entrantes.</p>
+    </div>
+  
+    <div class="recipe">
+      <a href="recipe4.html">
+        <img class="recipe-image" src="recipe4.jpg" alt="Ensalada ambigú fría">
+      </a>
+      <h2>Ensalada ambigú fría</h2>
+      <p>Prepara esta sabrosa y fácil pasta fría de coditos cremosa con jamon para acompañar cualquier platillo en el almuerzo o para la comida, te va encantar, además de que es muy economica.</p>
+    </div>
+  </div>
+</body>
+</html>
